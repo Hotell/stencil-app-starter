@@ -16,11 +16,13 @@
   },
   "dependencies": {
     "@stencil/core": "next",
-    "@stencil/router": "latest"
+    "@stencil/router": "latest",
+    "flatpickr": "3.0.7"
   },
   "devDependencies": {
     "@stencil/dev-server": "latest",
     "@stencil/utils": "latest",
+    "@types/flatpickr": "3.0.2",
     "@types/jest": "^21.1.1",
     "jest": "^21.2.1"
   },
