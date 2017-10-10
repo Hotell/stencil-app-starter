@@ -27,7 +27,7 @@ export class MyApp {
                 type="checkbox"
                 checked={this.datepickerOptions.wrap}
                 name="wrap"
-                onChange={(e)=>this.handleCheckboxChange(e)}
+                onChange={this.handleCheckboxChange}
               />{' '}
               wrap
             </label>
@@ -36,7 +36,7 @@ export class MyApp {
                 type="checkbox"
                 checked={this.datepickerOptions.enableTime}
                 name="enableTime"
-                onChange={(e)=>this.handleCheckboxChange(e)}
+                onChange={this.handleCheckboxChange}
               />{' '}
               enableTime
             </label>
